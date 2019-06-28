@@ -1,0 +1,50 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url("/portfolio/assets/img/main-bg.jpg") repeat;
+}
+
+.header {
+  background-color: #6082bb;
+}
+
+.logo {
+  height: 70px;
+  width: 177px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #30343B;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.main-bg {
+  background: url("../../assets/img/main-bg.png") repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
