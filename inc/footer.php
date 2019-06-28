@@ -1,5 +1,6 @@
 <footer>
-	
+
+<hr>
 <div id="copy">
 	<p>
 		&copy; php24 <script>
@@ -8,7 +9,7 @@
         </script>
 	</p>
 </div>
-	
+
 </footer>
 </body>
 </html>

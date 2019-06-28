@@ -1,10 +1,8 @@
-<main id="main">
-	<div class="container"> 
-		<h2>
-			home
-		</h2>
-		<p>
-			welcome
-		</p>
-	</div>
+<main>
+	<h2>
+		HOME
+	</h2>
+	<p>
+		welcome
+	</p>
 </main>
