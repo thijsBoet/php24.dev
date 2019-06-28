@@ -1,8 +1,7 @@
 body, html {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-  background-image: url("/portfolio/assets/img/main-bg.jpg") repeat;
+  background-image: url("/portfolio/assets/img/main-bg.jpg");
 }
 
 .header {
@@ -20,6 +19,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #30343B;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 li {
@@ -38,13 +38,18 @@ li a:hover {
   background-color: #111;
 }
 
-.main-bg {
-  background: url("../../assets/img/main-bg.png") repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  min-width: 100%;
-  min-height: 100%;
-  overflow-x: hidden;
+
+.container {
+	width: 83vw;
+	height: 80vh;
+	display: table;
+    margin: 0 auto;
+	overflow: auto;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+
+#copy {
+	text-align : center;	
 }
