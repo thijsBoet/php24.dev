@@ -1,0 +1,48 @@
+body, html {
+  padding: 0;
+  margin: 0;
+
+}
+
+.header {
+  background-color: #6082bb;
+}
+
+.logo {
+  height: 70px;
+  width: 177px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 3vw;
+  overflow: hidden;
+  background-color: #30343B;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+main {
+  padding-top: 5px;
+  padding-right: 3vh;
+  padding-left: 5vh;
+}
+
+#copy {
+	text-align : center;	
+}

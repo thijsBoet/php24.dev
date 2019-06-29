@@ -1,48 +1,101 @@
-body, html {
-  padding: 0;
-  margin: 0;
-
+body{
+  font-family: 'Open Sans', sans-serif;
 }
 
-.header {
-  background-color: #6082bb;
+header {
+  background-image: linear-gradient(to right, #3E547A, #5F80BA);
 }
 
-.logo {
-  height: 70px;
-  width: 177px;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding-left: 3vw;
-  overflow: hidden;
-  background-color: #30343B;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
+header h1 {
+  margin-top: 0;
   color: #fff;
-  text-align: center;
-  padding: 16px;
+  font-size: 1.6em;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  color: #fff;
+  padding-bottom: 50px;
+}
+
+.header-top a {
+  color: inherit;
+}
+
+.logo-main {
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.logo-sup{
+  font-family: "Courier New", Courier, monospace;
+  vertical-align: super;
+  font-size: smaller
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav > a {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, .5);
+}
+
+a {
   text-decoration: none;
+  color: #222;
 }
 
-li a:hover {
-  background-color: #111;
+a:hover {
+  color: #fff;
 }
 
-main {
-  padding-top: 5px;
-  padding-right: 3vh;
-  padding-left: 5vh;
+.section {
+  padding: 30px;
 }
 
-#copy {
-	text-align : center;	
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.col{
+  flex: 1;
+  padding: 10px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(62,84,122,0.16), 0 3px 6px rgba(62,84,122,0.23);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  font-weight: bold;
+  color: #3E547A;
+  padding: 20px 30px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  -webkit-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  -moz-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  -ms-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  -o-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.box:hover {
+  box-shadow: 0 19px 38px rgba(62,84,122,0.30), 0 15px 12px rgba(62,84,122,0.22);
 }
