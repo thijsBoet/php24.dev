@@ -98,4 +98,5 @@ a:hover {
 
 .box:hover {
   box-shadow: 0 19px 38px rgba(62,84,122,0.30), 0 15px 12px rgba(62,84,122,0.22);
+  cursor: pointer;
 }
