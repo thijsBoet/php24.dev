@@ -25,6 +25,11 @@ header h1 {
   padding-bottom: 50px;
 }
 
+.header-top > a > img {
+  filter:invert(100%);
+  -webkit-filter:invert(100%);
+}
+
 .header-top a {
   color: inherit;
 }
@@ -64,6 +69,10 @@ a:hover {
   padding: 30px;
 }
 
+.mt30 {
+  margin-top: 30px;
+}
+
 .row {
   display: flex;
   justify-content: space-between;
@@ -79,9 +88,16 @@ a:hover {
 .copy {
   color: #3E547A;
   text-align: center;
+  font-size: .9em;
 }
 
 /* CARD */
+
+.cards {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 25% 25% 25% 25%;
+}
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,.12), 0 2px 4px 0 rgba(0,0,0,.08);
@@ -89,6 +105,10 @@ a:hover {
   height: 258px;
   display: flex;
   border-radius: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,.24), 0 2px 4px 0 rgba(0,0,0,.16);
 }
 
 .card-left {
@@ -100,6 +120,7 @@ a:hover {
   justify-content: space-between;
   color: #fff;
   align-items: center;
+  min-width: 158px;
 }
 
 .card-difficulty {
@@ -124,6 +145,17 @@ a:hover {
   color: #888;
   display: flex;
   flex-direction: column;
+}
+
+.card-title-blank-link:hover {
+  background: url('../icons/external-link-16.png') no-repeat right top;
+}
+
+.card-title-blank-link-git:hover{
+  background: url('../icons/external-link-16.png') no-repeat right top;
+  padding-right: 15px;
+  filter:invert(100%);
+  -webkit-filter:invert(100%);
 }
 
 .card-title {
